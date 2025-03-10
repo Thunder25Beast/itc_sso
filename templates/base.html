@@ -265,7 +265,8 @@
             {% if user.is_authenticated %}
             <div class="user-menu">
               <button class="btn btn-outline-primary">
-                <i class="fas fa-user me-2"></i>{{ user.username }}
+                <!-- <i class="fas fa-user me-2"></i>{{ user.username }}    -->
+                <i class="fas fa-user me-2"></i>Continue as {{ user.user }}
                 <i class="fas fa-chevron-down ms-2"></i>
               </button>
               <div class="user-menu-content">
